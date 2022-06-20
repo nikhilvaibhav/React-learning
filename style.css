@@ -1,3 +1,18 @@
-h1, p {
-  font-family: Lato;
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.6rem 1.1rem;
+  font-size: 1.3rem;
+  color: crimson;
+  background-color: aqua;
+  border-radius: 1rem;
+  border-color: brown;
 }
