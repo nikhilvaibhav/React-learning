@@ -10,14 +10,14 @@ export default function App() {
   if (btn) {
     return (
       <div>
-        <h2>Click to Logout</h2>
+        <h2>Welcome Nikhil, Hope you having a good time</h2>
         <button onClick={action}>LogOut</button>
       </div>
     );
   } else {
     return (
       <div>
-        <h2>Please Login</h2>
+        <h2>Welcomo Guest !!!</h2>
         <button onClick={action}>LogIn</button>
       </div>
     );
