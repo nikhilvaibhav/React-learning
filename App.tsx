@@ -4,7 +4,7 @@ import './style.css';
 export default function App() {
   const [btn, setbtn] = React.useState(false);
   const action = () => {
-    setbtn((prevState) => !prevState);
+    setbtn((btn) => !btn);
   };
 
   //ternary operator way of conditional rendering
